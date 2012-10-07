@@ -46,3 +46,8 @@ class NQueens
     end	
   end
 end
+
+
+a = {}
+[1,2,3,4,5,6,7,8].each{|c| a[c] = {1=>".", 2=>".", 3=>".", 4=>".", 5=>".", 6=>".", 7=>".", 8=>"."}}
+puts NQueens.new.find_n_queens(a,1)

@@ -1,7 +1,2 @@
-To Run this:
-
-a = {}
-[1,2,3,4,5,6,7,8].each{|c| a[c] = {1=>".", 2=>".", 3=>".", 4=>".", 5=>".", 6=>".", 7=>".", 8=>"."}}
-NQueens.new.find_n_queens(a,1)
-
+This is the first time I am giving a try to N-Queens problem. Though it is not a great piece of code it was fun to try in Ruby.
 
